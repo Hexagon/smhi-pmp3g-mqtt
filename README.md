@@ -2,7 +2,7 @@
 
 Docker image which periodically gets hourly forecasts from SMHI, and forwards it to a MQTT broker.
 
-For all available forcasts, see https://opendata.smhi.se/apidocs/metfcst/parameters.html
+For all available forecasts, see https://opendata.smhi.se/apidocs/metfcst/parameters.html
 
 ### Features
 
@@ -25,7 +25,7 @@ These sensors are provided for every parameter you request, example for paramete
 
 | Sensor                                       | Type  | Description                           |
 |----------------------------------------------|-------|---------------------------------------|
-| sensor.<entity>_<parameter>_<descriptor>     | -     | General format                        |
+| sensor.**entityname**_**parameter**_**descriptor**     | -     | General format                        |
 | sensor.smhi_pmp3g_t_1h - temperature in 1 hour   | Float | Temperature for next hour               |
 | sensor.smhi_pmp3g_t_6h - temperature in 6 hours  | Float | Temperature 6 hours from now            |
 | sensor.smhi_pmp3g_t_12h - temperature in 12 hour | Float | Temperature 6 hours from now            |
