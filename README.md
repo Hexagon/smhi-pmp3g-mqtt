@@ -45,7 +45,6 @@ These environment variables can be sent to docker
 |---------------|-------------------------------------|------------------------|
 | ST_MQTT_HOST  | IP to MQTT broker                   | 192.168.1.4            |
 | ST_MQTT_PORT  | Port on MQTT broker                 | 1883                   |
-| ST_CURRENCY   | Currency                            | SEK                    |
 | ST_LAT        | Latitude                            | 59.222222              |
 | ST_LON        | Longitude                           | 18.541209              |
 | ST_TOPIC      | Base topic                          | homeassistant/sensors/ |
